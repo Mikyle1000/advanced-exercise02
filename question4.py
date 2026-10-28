@@ -8,6 +8,8 @@ num2 = int(input("Enter a value (num2): "))
 operation = input("Enter an operation (+, -, *, /, %): ")
 
 # TODO: Match operation using if-elif
+# TODO: Handle division/modulus by zero with try-except
+# TODO: Print result
 if operation == "+":
     print(f"{num1} + {num2} = {num1 + num2}")
 elif operation == "-":
@@ -28,5 +30,3 @@ elif operation == "/":
         print("You cannot divide by zero")
 else:
     print(num1/num2)
-
-    
