@@ -21,4 +21,3 @@ final_condition = is_even and is_positive and is_in_range
 
 # TODO: Print final_condition
 print(f"Final condition is {final_condition}")
-
